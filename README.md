@@ -40,8 +40,8 @@ Open your web browser and visit http://localhost:5173/ to view the application.
 
 Assumptions and Additional Features
 
-~The application assumes that music files are in either MP3 or WAV format.
-~Error handling is implemented in the MusicUploadForm component to handle invalid file formats and upload failures.
-~The user interface is responsive and adjusts to different screen sizes to provide a consistent experience across devices.
-~Basic music playback controls, such as play, pause, and stop, are provided in the Toolbar component.
-~Songs can be sorted based on song name, artist name, or track number using the dropdown menu in the Toolbar component.
+The application assumes that music files are in either MP3 or WAV format.
+Error handling is implemented in the MusicUploadForm component to handle invalid file formats and upload failures.
+The user interface is responsive and adjusts to different screen sizes to provide a consistent experience across devices.
+Basic music playback controls, such as play, pause, and stop, are provided in the Toolbar component.
+Songs can be sorted based on song name, artist name, or track number using the dropdown menu in the Toolbar component.
