@@ -24,7 +24,7 @@ How to Run the Application Locally
 To run the application locally, follow these steps:
 
 Clone the repository to your local machine:
-git clone https://github.com/your-username/music-player-app.git
+git clone https://github.com/MikayelSahakyan/Music_Player.git
 
 Navigate to the project directory:
 cd music-player-app
