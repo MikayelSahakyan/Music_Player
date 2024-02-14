@@ -1,0 +1,115 @@
+// Toolbar
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #E2E2E2;
+  border: 1px solid #919191;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 20px 0 20px;
+
+  .icon-play, .icon-plus, .arrowUpDown-icon {
+    color: #262626;
+    margin-right: 10px;
+  }
+
+  .toolbar-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .carret-btn {
+      margin-right: 10px;
+    }
+  }
+
+  .toolbar-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .search {
+      display: flex;
+      align-items: center;
+      margin-right: 0;
+
+      input[type="text"] {
+        padding: 8px;
+        border: 1px solid #919191;
+        border-radius: 15px;
+        margin-right: 10px;
+        cursor: text;
+        width: 200px;
+        outline: none;
+        padding-left: 30px;
+        background-image: url('src/assets/search.svg');
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        background-position: 10px center;
+
+        &:focus {
+          background-color: #fff;
+        }
+      }
+    }
+
+    .sort-dropdown {
+      position: relative;
+      margin-right: 10px;
+
+      ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 1;
+
+        li {
+          padding: 8px 16px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #f0f0f0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Button
+.button {
+  background-color: #F0F0F0;
+  color: #262626;
+  border: 1px solid #919191;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #d0d0d0;
+  }
+}
+
+.main-btn {
+  width: fit-content;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.carret-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}

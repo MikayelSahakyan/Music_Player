@@ -1,0 +1,46 @@
+.music-upload-form {
+  margin: 5px auto;
+}
+
+.music-upload-form p {
+  margin: 10px 0;
+}
+
+.music-upload-form button, input {
+  display: block;
+  background-color: #F0F0F0;
+  color: #262626;
+  border: 1px solid #919191;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.music-upload-form button {
+  width: 285px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.music-upload-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.music-upload-form button:hover {
+  background-color: #d0d0d0;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #132436;
+  height: 100%;
+  border-radius: 10px;
+}
